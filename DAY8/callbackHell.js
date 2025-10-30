@@ -1,4 +1,4 @@
-const orderCoffee=(btn)=>{
+const orderCoffee=()=>{
     setTimeout(()=>{
         console.log("Make some order.");
         setTimeout(()=>{
@@ -6,10 +6,8 @@ const orderCoffee=(btn)=>{
             setTimeout(()=>{
                 console.log("Serving Coffee");
                  setTimeout(()=>{
-                    console.log("Thanks for ordering from us.");
-                    
+                    console.log("Thanks for ordering from us.");  
                  },1000)
-                
             },3000)
         },2000)
         
